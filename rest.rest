@@ -1,0 +1,12 @@
+### 
+GET http://localhost:3001
+###
+
+GET http://localhost:3001/email
+###
+POST http://localhost:3001/email
+Content-Type: application/json
+
+{  
+    "email": "sam@sam.com"  
+    }
